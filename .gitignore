@@ -1,2 +1,5 @@
 # Ignore local python venv
 /demo-venv/
+
+# Ignore __pycache__ files
+__pycache__/
