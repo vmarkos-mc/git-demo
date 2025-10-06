@@ -37,7 +37,7 @@ class Segment:
         return f"[{self.a}, {self.b}]"
 
     def length_squared(self) -> float:
-        return (b.x - a.x) ** 2 + (b.y - a.y) ** 2
+        return (self.b.x - self.a.x) ** 2 + (self.b.y - self.a.y) ** 2
 
     def length(self) -> float:
         return sqrt(self.length_squared())

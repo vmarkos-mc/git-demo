@@ -42,6 +42,7 @@ def main() -> None:
     p = Point(*_p)
     segment = Segment(a, b, tol=_tol)
     print(f"Is point {p} in {segment}? {p in segment}.")
+    print(f"Segment length: {segment.length()}")
 
 
 if __name__ == "__main__":
